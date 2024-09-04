@@ -1,0 +1,6 @@
+{
+  "timestamp": "2024-08-30T14:40:20.073+00:00",
+  "status": 400,
+  "error": "Bad Request",
+  "path": "/calculator/calc"
+}

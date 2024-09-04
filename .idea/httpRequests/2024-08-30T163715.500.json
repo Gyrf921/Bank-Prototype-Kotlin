@@ -1,0 +1,6 @@
+{
+  "timestamp": "2024-08-30T13:37:15.243+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "path": "/calculator/offers"
+}

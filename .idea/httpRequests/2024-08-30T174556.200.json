@@ -1,0 +1,19 @@
+{
+  "amount": 20000,
+  "termInMonth": 36,
+  "monthlyPayment": 664.28620,
+  "rate": 12.0,
+  "psk": 23914.30320,
+  "isInsuranceEnabled": false,
+  "isSalaryClient": false,
+  "paymentSchedule": [
+    {
+      "number": 1,
+      "date": "2024-09-30",
+      "totalPayment": 23914.30320,
+      "interestPayment": 239.1430320000,
+      "debtPayment": 0.00000,
+      "remainingDebt": null
+    }
+  ]
+}

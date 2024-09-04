@@ -1,0 +1,42 @@
+[
+  {
+    "statementId": null,
+    "requestedAmount": null,
+    "totalAmount": null,
+    "termInMonth": null,
+    "monthlyPayment": null,
+    "rate": null,
+    "isInsuranceEnabled": null,
+    "isSalaryClient": null
+  },
+  {
+    "statementId": null,
+    "requestedAmount": null,
+    "totalAmount": null,
+    "termInMonth": null,
+    "monthlyPayment": null,
+    "rate": null,
+    "isInsuranceEnabled": null,
+    "isSalaryClient": null
+  },
+  {
+    "statementId": null,
+    "requestedAmount": null,
+    "totalAmount": null,
+    "termInMonth": null,
+    "monthlyPayment": null,
+    "rate": null,
+    "isInsuranceEnabled": null,
+    "isSalaryClient": null
+  },
+  {
+    "statementId": null,
+    "requestedAmount": null,
+    "totalAmount": null,
+    "termInMonth": null,
+    "monthlyPayment": null,
+    "rate": null,
+    "isInsuranceEnabled": null,
+    "isSalaryClient": null
+  }
+]
