@@ -12,8 +12,7 @@ import java.util.*
 
 @Entity
 @Table(name = "credit")
-class Credit(creditId: UUID, amount: BigDecimal, term: Int, monthlyPayment: BigDecimal, rate: BigDecimal, psk: BigDecimal, paymentSchedule: MutableList<PaymentScheduleElementDto>, insuranceEnable: Boolean, salaryClient: Boolean, creditStatus: CreditStatus) {
-
+class Credit{
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @UuidGenerator
@@ -35,8 +34,8 @@ class Credit(creditId: UUID, amount: BigDecimal, term: Int, monthlyPayment: BigD
     @Column(name = "psk")
     var psk: BigDecimal? = null
 
-    @field:  JdbcTypeCode(SqlTypes.JSON)
-    @Column(name = "payment_schedule", columnDefinition = "json")
+    @JdbcTypeCode(SqlTypes.JSON)
+    @Column(name = "payment_schedule")
     var paymentSchedule: List<PaymentScheduleElementDto>? = null
 
     @Column(name = "insurance_enable")

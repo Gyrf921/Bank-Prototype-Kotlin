@@ -1,5 +1,6 @@
 package com.bankprototype.deal.web.controller
 
+import com.bankprototype.deal.service.DealService
 import com.bankprototype.deal.service.impl.DealServiceImpl
 import com.bankprototype.deal.web.dto.FinishRegistrationRequestDto
 import com.bankprototype.deal.web.dto.LoanOfferDto
@@ -11,21 +12,21 @@ import org.springframework.web.bind.annotation.*
 @RestController
 @RequestMapping("/deal")
 class DealController @Autowired constructor(
-    private val dealServiceImpl: DealServiceImpl
+    private val dealService: DealService
 )
 {
 
     @PostMapping("/statement")
     fun calculatePossibleLoanTerms(@RequestBody loanStatementRequestDto: LoanStatementRequestDto)
-            : ResponseEntity<List<LoanOfferDto>> = ResponseEntity.ok().body(dealServiceImpl.calculatePossibleLoanTerms(loanStatementRequestDto))
+            : ResponseEntity<List<LoanOfferDto>> = ResponseEntity.ok().body(dealService.calculatePossibleLoanTerms(loanStatementRequestDto))
 
     @PostMapping("/offer/select")
     fun selectOneOfOffers(@RequestBody loanOfferDto: LoanOfferDto)
-    = dealServiceImpl.selectOneLoanOffer(loanOfferDto)
+    = dealService.selectOneLoanOffer(loanOfferDto)
 
     @PostMapping("/calculate/{statementId}")
     fun finishRegistration(@PathVariable("statementId") statementId: String,
                            @RequestBody finishRegistrationRequestDto: FinishRegistrationRequestDto)
-    = dealServiceImpl.calculateTotalCredit(statementId, finishRegistrationRequestDto)
+    = dealService.calculateTotalCredit(statementId, finishRegistrationRequestDto)
 
 }

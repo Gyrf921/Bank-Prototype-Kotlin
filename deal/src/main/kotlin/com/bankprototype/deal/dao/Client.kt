@@ -12,20 +12,7 @@ import java.util.UUID
 
 @Entity
 @Table(name = "client")
-class Client(
-    clientId: UUID?,
-    lastName: String?,
-    firstName: String?,
-    middleName: String?,
-    birthDate: LocalDate?,
-    email: String?,
-    gender: Gender?,
-    maritalStatus: MaritalStatus?,
-    dependentAmount: Int?,
-    passport: Passport?,
-    employment: Employment?,
-    account: String?
-) {
+class Client {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @UuidGenerator
@@ -42,7 +29,7 @@ class Client(
     var middleName: String? = null
 
     @Column(name = "birth_date")
-    var birthDate: LocalDate? = null
+    var birthdate: LocalDate? = null
 
     @Column(name = "email")
     var email: String? = null
@@ -59,11 +46,11 @@ class Client(
     var dependentAmount: Int? = null
 
     @JdbcTypeCode(SqlTypes.JSON)
-    @Column(name = "passport_id", columnDefinition = "json")
+    @Column(name = "passport_id")
     var passport: Passport? = null
 
     @JdbcTypeCode(SqlTypes.JSON)
-    @Column(name = "employment_id", columnDefinition = "json")
+    @Column(name = "employment_id")
     var employment: Employment? = null
 
     @Column(name = "account")

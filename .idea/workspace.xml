@@ -4,64 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1592e80a-8c9d-4fb5-83b0-ef5dfacdd9e4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/web/controller/DealController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/web/dto/CreditDto.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/web/dto/EmploymentDto.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/web/dto/LoanOfferDto.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/web/dto/LoanStatementRequestDto.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/web/dto/PaymentScheduleElementDto.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/web/dto/ScoringDataDto.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deal/src/main/resources/db/changelog/changelog.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deal/src/main/resources/db/changelog/changeset/createForeignKey.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deal/src/main/resources/db/changelog/changeset/createTableClient.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deal/src/main/resources/db/changelog/changeset/createTableCredit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deal/src/main/resources/db/changelog/changeset/createTableStatement.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-24T135317.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-24T135332.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-24T135419.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-24T135601.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-24T140029.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-24T140704.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-27T175342.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-27T180003.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-27T180246.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-27T180259.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-28T165258.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-28T191728.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-28T193634.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-30T163715.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-30T163824.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-30T163849.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-30T163903.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-30T164006.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-30T164327.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-30T165037.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-30T165156.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-30T171411.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-30T171711.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-30T171811.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-30T174020.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-30T174112.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-30T174153.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-30T174202.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-30T174303.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-30T174333.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-30T174341.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-30T174556.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-30T191923.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-30T192129.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-31T135833.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-31T162121.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-31T162153.200.json" beforeDir="false" />
+    <list default="true" id="1592e80a-8c9d-4fb5-83b0-ef5dfacdd9e4" name="Changes" comment="piece of shit, that don't work">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9166b70-e71b-4dec-b657-90e11603a4bd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a9166b70-e71b-4dec-b657-90e11603a4bd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9166b70-e71b-4dec-b657-90e11603a4bd/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a9166b70-e71b-4dec-b657-90e11603a4bd/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deal/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/dao/Client.kt" beforeDir="false" afterPath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/dao/Client.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/dao/Credit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/dao/Credit.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/dao/Statement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/dao/Statement.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/dao/factory/StatementFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/mapper/StatementMapper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/dao/jsonb/Employment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/dao/jsonb/Employment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/dao/jsonb/StatusHistory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/dao/jsonb/StatusHistory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/mapper/ClientMapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/mapper/ClientMapper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/mapper/CreditMapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/mapper/CreditMapper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/mapper/ScoringMapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/mapper/ScoringMapper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/service/DealService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/service/DealService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/service/db/ClientService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/service/db/ClientService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/service/db/CreditService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/service/db/CreditService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/service/db/StatementService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/service/db/StatementService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/service/db/impl/ClientServiceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/service/db/impl/ClientServiceImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/service/db/impl/CreditServiceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/service/db/impl/CreditServiceImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/service/db/impl/StatementServiceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/service/db/impl/StatementServiceImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/service/impl/DealServiceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/service/impl/DealServiceImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/web/controller/DealController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/web/controller/DealController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/web/dto/ScoringDataDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/deal/src/main/kotlin/com/bankprototype/deal/web/dto/ScoringDataDto.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +55,16 @@
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Gyrf921/Bank-Prototype-Kotlin.git&quot;,
     &quot;accountId&quot;: &quot;4dbe9ff3-a49d-4884-8348-c3768a833c7a&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;Gyrf921&quot;,
+    &quot;repository&quot;: &quot;Bank-Prototype-Kotlin&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -101,29 +78,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP Request.generated-requests | #1.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.CalculatorApplication.executor": "Debug",
-    "Spring Boot.DealApplication.executor": "Debug",
-    "git-widget-placeholder": "develop/feature/MS-deal/create",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #4.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.deal [clean,package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.deal [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CalculatorApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.DealApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#1 on develop/feature/MS-deal/create&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/xsilver/IdeaProjects/Bank-prototype&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="HTTP Request.generated-requests | #1">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.bankprototype.deal.mapper" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn clean package" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DealApplication">
     <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="#4" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="CalculatorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -143,6 +142,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests | #3" />
+        <item itemvalue="HTTP Request.generated-requests | #4" />
         <item itemvalue="HTTP Request.generated-requests | #1" />
       </list>
     </recent_temporary>
@@ -164,11 +165,44 @@
       <option name="presentableId" value="Default" />
       <updated>1726661864229</updated>
       <workItem from="1726661865350" duration="1494000" />
-      <workItem from="1726663613189" duration="1602000" />
+      <workItem from="1726663613189" duration="1902000" />
+      <workItem from="1726669780460" duration="5000" />
+      <workItem from="1726670554531" duration="7000" />
+      <workItem from="1726736326506" duration="5880000" />
+      <workItem from="1726746630092" duration="2021000" />
+      <workItem from="1726774275174" duration="1097000" />
+      <workItem from="1726825725910" duration="10179000" />
+      <workItem from="1726861859728" duration="1549000" />
+      <workItem from="1726864016304" duration="10000" />
+      <workItem from="1726898553354" duration="611000" />
     </task>
+    <task id="LOCAL-00001" summary="piece of shit, that don't work">
+      <option name="closed" value="true" />
+      <created>1726665409851</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726665409851</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="piece of shit, that don't work" />
+    <option name="LAST_COMMIT_MESSAGE" value="piece of shit, that don't work" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/calculator/src/main/kotlin/com/bankprototype/calculator/web/controller/CalculatorController.kt</url>
+          <line>28</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -4,16 +4,14 @@ import com.bankprototype.deal.dao.enumforobject.*
 import jakarta.persistence.GeneratedValue
 import jakarta.persistence.GenerationType
 import jakarta.persistence.Id
+import java.io.Serializable
 import java.math.BigDecimal
 
-data class Employment(
-    @field: Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private var employmentId: Long,
-    private val status: EmploymentStatus,
-    private val employerInn: String,
-    private val salary: BigDecimal,
-    private val position: Position,
-    private val workExperienceTotal: Int,
-    private val workExperienceCurrent: Int?,
-)
+class Employment(
+    val status: EmploymentStatus,
+    val employerInn: String,
+    val salary: BigDecimal,
+    val position: Position,
+    val workExperienceTotal: Int,
+    val workExperienceCurrent: Int,
+) : Serializable

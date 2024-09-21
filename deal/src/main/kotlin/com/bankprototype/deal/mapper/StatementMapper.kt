@@ -1,4 +1,4 @@
-package com.bankprototype.deal.dao.factory
+package com.bankprototype.deal.mapper
 
 import com.bankprototype.deal.dao.Client
 import com.bankprototype.deal.dao.Statement
@@ -10,14 +10,15 @@ import java.sql.Timestamp
 import java.time.LocalDateTime
 
 @Component
-class StatementFactory {
+class StatementMapper {
 
-    fun createStatement(client: Client): Statement {
+    fun createStatementFromClient(client: Client): Statement {
         val statement = Statement()
 
         statement.client = client
         statement.applicationStatus = ApplicationStatus.PREAPPROVAL
         statement.creationDate = Timestamp.valueOf(LocalDateTime.now())
+
         statement.statusHistory = mutableListOf(
             StatusHistory(
                 ApplicationStatus.PREAPPROVAL,

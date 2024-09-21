@@ -1,3 +1,601 @@
+POST http://localhost:8081/deal/calculate/0da2f873-2f85-4f74-90d6-fbd202ce00f2
+Content-Type: application/json
+Content-Length: 703
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": "20000",
+  "termInMonth": 36,
+  "firstName": "Олег",
+  "lastName": "Олегов",
+  "middleName": "Олегович",
+  "gender": "MALE",
+  "birthdate": "1990-01-01",
+  "passportSeries": "1234",
+  "passportNumber": "567890",
+  "passportIssueDate" : "1990-01-01",
+  "passportIssueBranch" : "sfdgsdfgsfdgdfsgfdsgsfdgsdfg",
+  "maritalStatus" : "SINGLE",
+  "dependentAmount" : 0,
+  "employment" : {
+    "employmentStatus" : "EMPLOYED",
+    "employerINN" : "234234234",
+    "salary" : "10000.00",
+    "position" : "MIDDLE_MANAGER",
+    "workExperienceTotal" : "36",
+    "workExperienceCurrent" : "24"
+  },
+  "accountNumber" : "1",
+  "isInsuranceEnabled" : true,
+  "isSalaryClient" : true
+}
+
+###
+
+POST http://localhost:8081/deal/calculate/0da2f873-2f85-4f74-90d6-fbd202ce00f2
+Content-Type: application/json
+Content-Length: 703
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": "20000",
+  "termInMonth": 36,
+  "firstName": "Олег",
+  "lastName": "Олегов",
+  "middleName": "Олегович",
+  "gender": "MALE",
+  "birthdate": "1990-01-01",
+  "passportSeries": "1234",
+  "passportNumber": "567890",
+  "passportIssueDate" : "1990-01-01",
+  "passportIssueBranch" : "sfdgsdfgsfdgdfsgfdsgsfdgsdfg",
+  "maritalStatus" : "SINGLE",
+  "dependentAmount" : 0,
+  "employment" : {
+    "employmentStatus" : "EMPLOYED",
+    "employerINN" : "234234234",
+    "salary" : "10000.00",
+    "position" : "MIDDLE_MANAGER",
+    "workExperienceTotal" : "36",
+    "workExperienceCurrent" : "24"
+  },
+  "accountNumber" : "1",
+  "isInsuranceEnabled" : true,
+  "isSalaryClient" : true
+}
+
+<> 2024-09-20T230844.500.json
+
+###
+
+POST http://localhost:8081/deal/calculate/0da2f873-2f85-4f74-90d6-fbd202ce00f2
+Content-Type: application/json
+Content-Length: 703
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": "20000",
+  "termInMonth": 36,
+  "firstName": "Олег",
+  "lastName": "Олегов",
+  "middleName": "Олегович",
+  "gender": "MALE",
+  "birthdate": "1990-01-01",
+  "passportSeries": "1234",
+  "passportNumber": "567890",
+  "passportIssueDate" : "1990-01-01",
+  "passportIssueBranch" : "sfdgsdfgsfdgdfsgfdsgsfdgsdfg",
+  "maritalStatus" : "SINGLE",
+  "dependentAmount" : 0,
+  "employment" : {
+    "employmentStatus" : "EMPLOYED",
+    "employerINN" : "234234234",
+    "salary" : "10000.00",
+    "position" : "MIDDLE_MANAGER",
+    "workExperienceTotal" : "36",
+    "workExperienceCurrent" : "24"
+  },
+  "accountNumber" : "1",
+  "isInsuranceEnabled" : true,
+  "isSalaryClient" : true
+}
+
+<> 2024-09-20T230653.500.json
+
+###
+
+POST http://localhost:8080/calculator/calc
+Content-Type: application/json
+Content-Length: 703
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": "20000",
+  "termInMonth": 36,
+  "firstName": "Олег",
+  "lastName": "Олегов",
+  "middleName": "Олегович",
+  "gender": "MALE",
+  "birthdate": "1990-01-01",
+  "passportSeries": "1234",
+  "passportNumber": "567890",
+  "passportIssueDate" : "1990-01-01",
+  "passportIssueBranch" : "sfdgsdfgsfdgdfsgfdsgsfdgsdfg",
+  "maritalStatus" : "SINGLE",
+  "dependentAmount" : 0,
+  "employment" : {
+    "employmentStatus" : "EMPLOYED",
+    "employerINN" : "234234234",
+    "salary" : "10000.00",
+    "position" : "MIDDLE_MANAGER",
+    "workExperienceTotal" : "36",
+    "workExperienceCurrent" : "24"
+  },
+  "accountNumber" : "1",
+  "isInsuranceEnabled" : true,
+  "isSalaryClient" : true
+}
+
+<> 2024-09-20T230452.200.json
+
+###
+
+POST http://localhost:8081/deal/calculate/0da2f873-2f85-4f74-90d6-fbd202ce00f2
+Content-Type: application/json
+Content-Length: 703
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": "20000",
+  "termInMonth": 36,
+  "firstName": "Олег",
+  "lastName": "Олегов",
+  "middleName": "Олегович",
+  "gender": "MALE",
+  "birthdate": "1990-01-01",
+  "passportSeries": "1234",
+  "passportNumber": "567890",
+  "passportIssueDate" : "1990-01-01",
+  "passportIssueBranch" : "sfdgsdfgsfdgdfsgfdsgsfdgsdfg",
+  "maritalStatus" : "SINGLE",
+  "dependentAmount" : 0,
+  "employment" : {
+    "employmentStatus" : "EMPLOYED",
+    "employerINN" : "234234234",
+    "salary" : "10000.00",
+    "position" : "MIDDLE_MANAGER",
+    "workExperienceTotal" : "36",
+    "workExperienceCurrent" : "24"
+  },
+  "accountNumber" : "1",
+  "isInsuranceEnabled" : true,
+  "isSalaryClient" : true
+}
+
+<> 2024-09-20T225601.500.json
+
+###
+
+POST http://localhost:8081/deal/calculate/0da2f873-2f85-4f74-90d6-fbd202ce00f2
+Content-Type: application/json
+Content-Length: 721
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": "20000",
+  "termInMonth": 36,
+  "firstName": "Олег",
+  "lastName": "Олегов",
+  "middleName": "Олегович",
+  "email": "ivan.ivanov@example.com",
+  "birthdate": "1990-01-01",
+  "passportSeries": "1234",
+  "passportNumber": "567890",
+  "passportIssueDate" : "1990-01-01",
+  "passportIssueBranch" : "sfdgsdfgsfdgdfsgfdsgsfdgsdfg",
+  "maritalStatus" : "SINGLE",
+  "dependentAmount" : 0,
+  "employment" : {
+    "employmentStatus" : "EMPLOYED",
+    "employerINN" : "234234234",
+    "salary" : "10000.00",
+    "position" : "MIDDLE_MANAGER",
+    "workExperienceTotal" : "36",
+    "workExperienceCurrent" : "24"
+  },
+  "accountNumber" : "1",
+  "isInsuranceEnabled" : true,
+  "isSalaryClient" : true
+}
+
+<> 2024-09-20T225339.500.json
+
+###
+
+POST http://localhost:8081/deal/calculate/statementId=0da2f873-2f85-4f74-90d6-fbd202ce00f2
+Content-Type: application/json
+Content-Length: 721
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": "20000",
+  "termInMonth": 36,
+  "firstName": "Олег",
+  "lastName": "Олегов",
+  "middleName": "Олегович",
+  "email": "ivan.ivanov@example.com",
+  "birthdate": "1990-01-01",
+  "passportSeries": "1234",
+  "passportNumber": "567890",
+  "passportIssueDate" : "1990-01-01",
+  "passportIssueBranch" : "sfdgsdfgsfdgdfsgfdsgsfdgsdfg",
+  "maritalStatus" : "SINGLE",
+  "dependentAmount" : 0,
+  "employment" : {
+    "employmentStatus" : "EMPLOYED",
+    "employerINN" : "234234234",
+    "salary" : "10000.00",
+    "position" : "MIDDLE_MANAGER",
+    "workExperienceTotal" : "36",
+    "workExperienceCurrent" : "24"
+  },
+  "accountNumber" : "1",
+  "isInsuranceEnabled" : true,
+  "isSalaryClient" : true
+}
+
+<> 2024-09-20T224756.500.json
+
+###
+
+POST http://localhost:8081/deal/calculate/0da2f873-2f85-4f74-90d6-fbd202ce00f2
+Content-Type: application/json
+Content-Length: 721
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": "20000",
+  "termInMonth": 36,
+  "firstName": "Олег",
+  "lastName": "Олегов",
+  "middleName": "Олегович",
+  "email": "ivan.ivanov@example.com",
+  "birthdate": "1990-01-01",
+  "passportSeries": "1234",
+  "passportNumber": "567890",
+  "passportIssueDate" : "1990-01-01",
+  "passportIssueBranch" : "sfdgsdfgsfdgdfsgfdsgsfdgsdfg",
+  "maritalStatus" : "SINGLE",
+  "dependentAmount" : 0,
+  "employment" : {
+    "employmentStatus" : "EMPLOYED",
+    "employerINN" : "234234234",
+    "salary" : "10000.00",
+    "position" : "MIDDLE_MANAGER",
+    "workExperienceTotal" : "36",
+    "workExperienceCurrent" : "24"
+  },
+  "accountNumber" : "1",
+  "isInsuranceEnabled" : true,
+  "isSalaryClient" : true
+}
+
+<> 2024-09-20T224706.500.json
+
+###
+
+POST http://localhost:8081/deal/offer/select
+Content-Type: application/json
+Content-Length: 245
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "statementId": "0da2f873-2f85-4f74-90d6-fbd202ce00f2",
+  "requestedAmount": 70000.0,
+  "totalAmount": 80135.326296,
+  "termInMonth": 36,
+  "monthlyPayment": 2225.981286,
+  "rate": 9.0,
+  "isInsuranceEnabled": true,
+  "isSalaryClient": true
+}
+
+###
+
+POST http://localhost:8081/deal/statement
+Content-Type: application/json
+Content-Length: 262
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": "20000",
+  "termInMonth": 36,
+  "firstName": "Олег",
+  "lastName": "Олегов",
+  "middleName": "Олегович",
+  "email": "ivan.ivanov@example.com",
+  "birthdate": "1990-01-01",
+  "passportSeries": "1234",
+  "passportNumber": "567890"
+}
+
+<> 2024-09-20T224140.200.json
+
+###
+
+POST http://localhost:8081/deal/statement
+Content-Type: application/json
+Content-Length: 262
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": "20000",
+  "termInMonth": 36,
+  "firstName": "Иван",
+  "lastName": "Иванов",
+  "middleName": "Иванович",
+  "email": "ivan.ivanov@example.com",
+  "birthdate": "1990-01-01",
+  "passportSeries": "1234",
+  "passportNumber": "567890"
+}
+
+<> 2024-09-19T224843.200.json
+
+###
+
+POST http://localhost:8081/deal/statement
+Content-Type: application/json
+Content-Length: 262
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": "20000",
+  "termInMonth": 36,
+  "firstName": "Иван",
+  "lastName": "Иванов",
+  "middleName": "Иванович",
+  "email": "ivan.ivanov@example.com",
+  "birthdate": "1990-01-01",
+  "passportSeries": "1234",
+  "passportNumber": "567890"
+}
+
+<> 2024-09-19T224826.200.json
+
+###
+
+POST http://localhost:8081/deal/statement
+Content-Type: application/json
+Content-Length: 262
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": "20000",
+  "termInMonth": 36,
+  "firstName": "Иван",
+  "lastName": "Иванов",
+  "middleName": "Иванович",
+  "email": "ivan.ivanov@example.com",
+  "birthdate": "1990-01-01",
+  "passportSeries": "1234",
+  "passportNumber": "567890"
+}
+
+<> 2024-09-19T224744.500.json
+
+###
+
+POST http://localhost:8081/deal/statement
+Content-Type: application/json
+Content-Length: 262
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": "20000",
+  "termInMonth": 36,
+  "firstName": "Иван",
+  "lastName": "Иванов",
+  "middleName": "Иванович",
+  "email": "ivan.ivanov@example.com",
+  "birthdate": "1990-01-01",
+  "passportSeries": "1234",
+  "passportNumber": "567890"
+}
+
+<> 2024-09-19T224648.500.json
+
+###
+
+POST http://localhost:8081/deal/statement
+Content-Type: application/json
+Content-Length: 262
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": "20000",
+  "termInMonth": 36,
+  "firstName": "Иван",
+  "lastName": "Иванов",
+  "middleName": "Иванович",
+  "email": "ivan.ivanov@example.com",
+  "birthdate": "1990-01-01",
+  "passportSeries": "1234",
+  "passportNumber": "567890"
+}
+
+<> 2024-09-19T150208.500.json
+
+###
+
+POST http://localhost:8081/deal/statement
+Content-Type: application/json
+Content-Length: 262
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": "20000",
+  "termInMonth": 36,
+  "firstName": "Иван",
+  "lastName": "Иванов",
+  "middleName": "Иванович",
+  "email": "ivan.ivanov@example.com",
+  "birthdate": "1990-01-01",
+  "passportSeries": "1234",
+  "passportNumber": "567890"
+}
+
+<> 2024-09-19T143659.500.json
+
+###
+
+POST http://localhost:8081/deal/statement
+Content-Type: application/json
+Content-Length: 262
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": "20000",
+  "termInMonth": 36,
+  "firstName": "Иван",
+  "lastName": "Иванов",
+  "middleName": "Иванович",
+  "email": "ivan.ivanov@example.com",
+  "birthdate": "1990-01-01",
+  "passportSeries": "1234",
+  "passportNumber": "567890"
+}
+
+<> 2024-09-19T124359.500.json
+
+###
+
+POST http://localhost:8081/deal/statement
+Content-Type: application/json
+Content-Length: 262
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": "20000",
+  "termInMonth": 36,
+  "firstName": "Иван",
+  "lastName": "Иванов",
+  "middleName": "Иванович",
+  "email": "ivan.ivanov@example.com",
+  "birthdate": "1990-01-01",
+  "passportSeries": "1234",
+  "passportNumber": "567890"
+}
+
+<> 2024-09-19T124340.500.json
+
+###
+
+POST http://localhost:8081/deal/statement
+Content-Type: application/json
+Content-Length: 262
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": "20000",
+  "termInMonth": 36,
+  "firstName": "Иван",
+  "lastName": "Иванов",
+  "middleName": "Иванович",
+  "email": "ivan.ivanov@example.com",
+  "birthdate": "1990-01-01",
+  "passportSeries": "1234",
+  "passportNumber": "567890"
+}
+
+<> 2024-09-19T123446.500.json
+
+###
+
+POST http://localhost:8081/deal/statement
+Content-Type: application/json
+Content-Length: 262
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": "20000",
+  "termInMonth": 36,
+  "firstName": "Иван",
+  "lastName": "Иванов",
+  "middleName": "Иванович",
+  "email": "ivan.ivanov@example.com",
+  "birthdate": "1990-01-01",
+  "passportSeries": "1234",
+  "passportNumber": "567890"
+}
+
+<> 2024-09-19T121914.500.json
+
+###
+
+POST http://localhost:8081/deal/statement
+Content-Type: application/json
+Content-Length: 262
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": "20000",
+  "termInMonth": 36,
+  "firstName": "Иван",
+  "lastName": "Иванов",
+  "middleName": "Иванович",
+  "email": "ivan.ivanov@example.com",
+  "birthdate": "1990-01-01",
+  "passportSeries": "1234",
+  "passportNumber": "567890"
+}
+
+<> 2024-09-19T121754.500.json
+
+###
+
 POST http://localhost:8081/deal/statement
 Content-Type: application/json
 Content-Length: 262

@@ -5,6 +5,7 @@ import com.bankprototype.deal.dao.jsonb.StatusHistory
 import com.bankprototype.deal.web.dto.LoanOfferDto
 import jakarta.persistence.*
 import org.hibernate.annotations.JdbcTypeCode
+import org.hibernate.annotations.Type
 import org.hibernate.annotations.UuidGenerator
 import org.hibernate.type.SqlTypes
 import java.sql.Timestamp
@@ -12,7 +13,7 @@ import java.util.*
 
 
 @Entity
-@Table(name = "Statement")
+@Table(name = "statement")
 class Statement{
 
     @Id
@@ -22,7 +23,7 @@ class Statement{
     var statementId: UUID? = null
 
     @OneToOne
-    @JoinColumn(name = "client_id", nullable = false)
+    @JoinColumn(name = "client_id")
     var client: Client? = null
 
     @OneToOne
@@ -37,7 +38,7 @@ class Statement{
     var creationDate: Timestamp? = null
 
     @JdbcTypeCode(SqlTypes.JSON)
-    @Column(name = "application_offer", columnDefinition = "json")
+    @Column(name = "applied_offer", columnDefinition = "json")
     var applicationOffer: LoanOfferDto? = null
 
     @Column(name = "sign_date")
@@ -47,6 +48,6 @@ class Statement{
     var sesCode: String? = null
 
     @JdbcTypeCode(SqlTypes.JSON)
-    @Column(name = "status_history", columnDefinition = "json")
+    @Column(name = "status_history")
     var statusHistory: List<StatusHistory>? = null
 }

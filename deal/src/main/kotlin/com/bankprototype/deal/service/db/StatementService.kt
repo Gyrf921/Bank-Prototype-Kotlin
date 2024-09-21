@@ -11,9 +11,13 @@ import java.util.*
 @Service
 interface StatementService {
 
+    fun getStatementById(id: UUID): Statement
+
     fun saveStatementFromClient(client: Client): Statement
 
     fun setApplicationOffer(loanOfferDto: LoanOfferDto)
 
-    fun changeApplicationStatus(statementId: UUID, applicationStatus: ApplicationStatus, changeType: ChangeType = ChangeType.AUTOMATIC)
+    fun changeApplicationStatus(statement: Statement, applicationStatus: ApplicationStatus, changeType: ChangeType = ChangeType.AUTOMATIC)
+
+    fun saveStatement(statement: Statement): Statement
 }
