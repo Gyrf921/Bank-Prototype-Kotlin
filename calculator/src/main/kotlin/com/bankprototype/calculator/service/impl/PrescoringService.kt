@@ -13,8 +13,6 @@ class PrescoringService @Autowired constructor(private val loanOfferFactory: Loa
     fun calculateLoanOffers(loanStatementRequestDto: LoanStatementRequestDto): List<LoanOfferDto> {
         var loanOffers: MutableList<LoanOfferDto> = mutableListOf()
 
-        var loanOfferDto = loanOfferFactory.createLoanOffer(loanStatementRequestDto, isInsuranceEnabled = true, isSalaryClient = true)
-
         loanOffers.add(loanOfferFactory.createLoanOffer(loanStatementRequestDto, isInsuranceEnabled = true, isSalaryClient = true))
         loanOffers.add(loanOfferFactory.createLoanOffer(loanStatementRequestDto, isInsuranceEnabled = true))
         loanOffers.add(loanOfferFactory.createLoanOffer(loanStatementRequestDto, isSalaryClient = true))
