@@ -1,11 +1,13 @@
 package com.bankprototype.statement.web.dto
 
+import io.swagger.v3.oas.annotations.media.Schema
 import jakarta.validation.constraints.*
 import org.jetbrains.annotations.NotNull
 import org.springframework.format.annotation.DateTimeFormat
 import java.math.BigDecimal
 import java.time.LocalDate
 
+@Schema(description = "Model with information about user")
 data class LoanStatementRequestDto (
     @field: NotNull
     @field: DecimalMin("5000")

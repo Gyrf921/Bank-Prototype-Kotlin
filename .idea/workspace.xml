@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1592e80a-8c9d-4fb5-83b0-ef5dfacdd9e4" name="Changes" comment="create module statement">
+    <list default="true" id="1592e80a-8c9d-4fb5-83b0-ef5dfacdd9e4" name="Changes" comment="sevice with feign client and api, without test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/src/main/kotlin/com/bankprototype/calculator/service/impl/PrescoringService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/main/kotlin/com/bankprototype/calculator/service/impl/PrescoringService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/deal/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/statement/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/statement/src/main/kotlin/com/bankprototype/statement/web/controller/StatementController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/statement/src/main/kotlin/com/bankprototype/statement/web/controller/StatementController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statement/src/main/kotlin/com/bankprototype/statement/web/dto/LoanStatementRequestDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/statement/src/main/kotlin/com/bankprototype/statement/web/dto/LoanStatementRequestDto.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statement/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/statement/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,41 +66,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.generated-requests | #3.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.generated-requests | #4.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.deal [clean,package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.deal [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.statement [clean,package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.statement [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.statement [package].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.CalculatorApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.DealApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.StatementApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev/mvp3/create&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/xsilver/IdeaProjects/Bank-Prototype-Kotlin/statement&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.16436781&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.kotlinCompiler&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.generated-requests | #1.executor": "Run",
+    "HTTP Request.generated-requests | #3.executor": "Run",
+    "HTTP Request.generated-requests | #4.executor": "Run",
+    "Maven.deal [clean,package].executor": "Run",
+    "Maven.deal [clean].executor": "Run",
+    "Maven.statement [clean,package].executor": "Run",
+    "Maven.statement [clean].executor": "Run",
+    "Maven.statement [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.CalculatorApplication.executor": "Run",
+    "Spring Boot.DealApplication.executor": "Debug",
+    "Spring Boot.StatementApplication.executor": "Run",
+    "git-widget-placeholder": "dev/mvp3/create",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/xsilver/IdeaProjects/Bank-Prototype-Kotlin/statement",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.16436781",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.bankprototype.deal.mapper" />
@@ -190,7 +193,9 @@
       <workItem from="1726901702027" duration="2215000" />
       <workItem from="1726903942087" duration="604000" />
       <workItem from="1726904550416" duration="308000" />
-      <workItem from="1726905667162" duration="401000" />
+      <workItem from="1726905667162" duration="586000" />
+      <workItem from="1726916591629" duration="681000" />
+      <workItem from="1726937671616" duration="1302000" />
     </task>
     <task id="LOCAL-00001" summary="piece of shit, that don't work">
       <option name="closed" value="true" />
@@ -208,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726904765667</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sevice with feign client and api, without test">
+      <option name="closed" value="true" />
+      <created>1726906233575</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726906233575</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +241,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="piece of shit, that don't work" />
     <MESSAGE value="create module statement" />
-    <option name="LAST_COMMIT_MESSAGE" value="create module statement" />
+    <MESSAGE value="sevice with feign client and api, without test" />
+    <option name="LAST_COMMIT_MESSAGE" value="sevice with feign client and api, without test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
