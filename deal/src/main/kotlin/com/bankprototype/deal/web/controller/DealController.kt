@@ -15,7 +15,6 @@ class DealController @Autowired constructor(
     private val dealService: DealService
 )
 {
-
     @PostMapping("/statement")
     fun calculatePossibleLoanTerms(@RequestBody loanStatementRequestDto: LoanStatementRequestDto)
             : ResponseEntity<List<LoanOfferDto>> = ResponseEntity.ok().body(dealService.calculatePossibleLoanTerms(loanStatementRequestDto))
